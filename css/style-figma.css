@@ -1,0 +1,169 @@
+* {
+   font-family: "Lato", sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+.header {
+   margin: 180px 0 40px 0;
+}
+
+.header-container {
+   max-width: 390px;
+   margin: 0 auto;
+}
+
+.header-overtitle {
+   max-width: 115px;
+   margin-bottom: 16px;
+}
+
+.header-overtitle h1 {
+   font-weight: 700;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #1e212c;
+}
+
+.header-title {
+   max-width: 298px;
+   margin-bottom: 50px;
+}
+
+.header-title h2 {
+   font-weight: 900;
+   font-size: 46px;
+   color: #1e212c;
+}
+
+.main {
+   margin-bottom: 250px;
+}
+.main-container {
+   max-width: 390px;
+   margin: 0 auto;
+}
+.main-list-block {
+   max-width: 390px;
+   margin-bottom: 22px;
+}
+
+.main-list-block ul {
+   margin-bottom: 50px;
+}
+
+.main-list-block > ul > li {
+   color: #424551;
+   padding: 0 0 0 33px;
+   margin-bottom: 8px;
+   min-height: 16px;
+   line-height: 1.6;
+}
+
+.main-list-block > ul > li:before {
+   content: "";
+   background: url("../img/check.png") 0 1px / 100% no-repeat;
+   display: inline-block;
+   vertical-align: middle;
+   width: 16px;
+   min-height: 20px;
+   margin-right: 16px;
+   margin-left: -33px;
+}
+
+.main-button-block {
+   width: 161px;
+   height: 44px;
+   background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+   border-radius: 4px;
+   margin-bottom: 50px;
+}
+
+.main-button-block:hover {
+   background: #fff;
+   border: 1px solid #f75e05;
+}
+
+.main-button-block:active {
+   background: rgba(216, 216, 216, 0.308);
+   border: 1px solid #f75e05;
+}
+
+.main-button-block > a {
+   width: 161px;
+   height: 44px;
+   display: block;
+   text-align: center;
+   padding: 13px 0;
+   color: #ffffff;
+}
+
+.main-button-block > a:hover {
+   color: #f75e05;
+}
+
+.maple {
+   max-width: 221px;
+   margin-bottom: 50px;
+}
+
+.maple p {
+   font-size: 36px;
+   color: #333333;
+   letter-spacing: 0.02em;
+   font-family: "Taviraj", serif;
+   font-weight: 400;
+   margin-bottom: 50px;
+}
+
+.maple p::after {
+   content: "";
+   display: block;
+   width: 65px;
+   height: 1px;
+   background-color: #333333;
+   margin-top: 8px;
+}
+
+.maple p:hover::after {
+   content: "";
+   display: block;
+   width: 100%;
+   height: 1px;
+   background-color: #333333;
+   margin-top: 8px;
+}
+
+.footer {
+}
+
+.footer p {
+   text-align: center;
+}
+
+/* Убираю отступы для дочерних элементов в блоках */
+
+.main-container > *:last-child {
+   margin-bottom: 0;
+}
+
+.header-container > *:last-child {
+   margin-bottom: 0;
+}
+
+.main-list-block > *:last-child {
+   margin-bottom: 0;
+}
+
+.main-list-block > ul > li:last-child {
+   margin-bottom: 0;
+}
+
+.maple > *:last-child {
+   margin-bottom: 0;
+}
