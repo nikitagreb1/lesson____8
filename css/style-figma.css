@@ -67,7 +67,7 @@
 
 .main-list-block > ul > li:before {
    content: "";
-   background: url("../img/check.png") 0 1px / 16px 16px no-repeat;
+   background: url("../img/check.png") center / 16px 16px no-repeat;
    display: inline-block;
    width: 16px;
    min-height: 16px;
