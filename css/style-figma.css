@@ -59,7 +59,7 @@
 
 .main-list-block > ul > li {
    color: #424551;
-   padding: 0 0 0 33px;
+   padding: 0 0 0 32px;
    margin-bottom: 8px;
    min-height: 16px;
    line-height: 1.6;
@@ -67,13 +67,12 @@
 
 .main-list-block > ul > li:before {
    content: "";
-   background: url("../img/check.png") 0 1px / 100% no-repeat;
+   background: url("../img/check.png") 0 1px / 16px 16px no-repeat;
    display: inline-block;
-   vertical-align: middle;
    width: 16px;
-   min-height: 20px;
+   min-height: 16px;
    margin-right: 16px;
-   margin-left: -33px;
+   margin-left: -32px;
 }
 
 .main-button-block {
