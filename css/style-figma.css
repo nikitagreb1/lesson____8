@@ -62,14 +62,15 @@
    padding: 0 0 0 32px;
    margin-bottom: 8px;
    line-height: 1.6;
+   min-height: 16px;
 }
 
 .main-list-block > ul > li:before {
    content: "";
-   background: url("../img/check.png") center / 16px 16px no-repeat;
+   background: url("../img/check.png") center / 16px no-repeat;
    display: inline-block;
    width: 16px;
-   height: 16px;
+   min-height: 16px;
    margin-right: 16px;
    margin-left: -32px;
 }
