@@ -65,7 +65,7 @@
    min-height: 16px;
 }
 
-.main-list-block > ul > li:before {
+.main-list-block > ul > li::before {
    content: "";
    background: url("../img/check.png") center / 16px no-repeat;
    display: inline-block;
