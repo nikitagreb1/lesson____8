@@ -447,7 +447,7 @@
 }
 
 .link-list > .row-2 > a:focus {
-	border: 5px solid rgb(253, 55, 55);
+	outline: 5px solid rgb(253, 55, 55);
 }
 
 .link-list > .row-2 > a:active {
@@ -485,7 +485,7 @@
 }
 
 .link-list > .row-1 > a:focus {
-	border: 5px solid rgb(253, 55, 55);
+	outline: 5px solid rgb(253, 55, 55);
 }
 
 .link-list > .row-1 > a:active {
@@ -498,7 +498,7 @@
 }
 
 .link-list > .row-3 > a:focus {
-	border: 5px solid rgb(253, 55, 55);
+	outline: 5px solid rgb(253, 55, 55);
 }
 
 .link-list > .row-3 > a:active {
@@ -538,7 +538,7 @@
 }
 
 .link-list > .reset > a:focus {
-	border: 5px solid rgb(253, 55, 55);
+	outline: 5px solid rgb(253, 55, 55);
 }
 
 .link-list > .reset > a:active {
@@ -659,7 +659,7 @@
 	margin-bottom: 0;
 }
 
-.block-1-ul ul > li:before {
+.block-1-ul ul > li::before {
 	content: "";
 	background: url("../img/green.gif") 0 15px / 45px 45px no-repeat;
 	display: inline-block;
@@ -681,7 +681,7 @@
 	margin-bottom: 15px;
 }
 
-.block-1-ul-1 ul > li:after {
+.block-1-ul-1 ul > li::after {
 	content: "";
 	background: url("../img/green.gif") 0 15px / 45px 45px no-repeat;
 	display: inline-block;
@@ -707,7 +707,7 @@
 	margin-bottom: 15px;
 }
 
-.block-1-ul-2 ul > li:after {
+.block-1-ul-2 ul > li::after {
 	content: "";
 	background: url("../img/green.gif") 0 15px / 45px 45px no-repeat;
 	display: inline-block;
@@ -715,7 +715,7 @@
 	height: 45px;
 }
 
-.block-1-ul-2 ul > li:before {
+.block-1-ul-2 ul > li::before {
 	content: "";
 	background: url("../img/green.gif") 0 15px / 45px 45px no-repeat;
 	display: inline-block;
