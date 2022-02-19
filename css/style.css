@@ -53,7 +53,7 @@
 	color: red;
 }
 
-.header-link ul > li:after {
+.header-link ul > li::after {
 	content: "";
 	width: 2px;
 	height: 15px;
@@ -63,7 +63,7 @@
 	margin-right: 50px;
 }
 
-.header-link ul > li:last-of-type:after {
+.header-link ul > li:last-of-type::after {
 	content: "";
 	width: 0px;
 	height: 0px;
